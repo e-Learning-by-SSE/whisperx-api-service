@@ -1,6 +1,6 @@
 #!/bin/bash
-# Starte RabbitMQ im Hintergrund
+# Starting RabbitMQ in background
 sudo service rabbitmq-server start
 
-# Starte die Python-Anwendung
+# Starting the actual python app
 exec python start.py
